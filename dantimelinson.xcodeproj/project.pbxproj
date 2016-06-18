@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03FD6FC259FEFE5CC8AC47F2 /* Pods_dantimelinson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D6C6D86868BC7E5EE6AEEA /* Pods_dantimelinson.framework */; };
+		38563D949E23AA44CB29B92B /* Pods_dantimelinsonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F606A8FFFA162E8FF6C7C2D /* Pods_dantimelinsonUITests.framework */; };
+		71910E9215883CB93ECB65D5 /* Pods_dantimelinson_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094A51AE2427D8BF06AA213E /* Pods_dantimelinson_WatchKit_App.framework */; };
+		882C773083CE84B4F5325BB4 /* Pods_dantimelinson_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE094EA9422AEE202E359F7 /* Pods_dantimelinson_WatchKit_Extension.framework */; };
+		A6339D95FFCFF8AB67781EA6 /* Pods_dantimelinsonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4EAFF17B3ECF5EEECA34A9C /* Pods_dantimelinsonTests.framework */; };
 		BBBBD7CF1D15C966008F2B3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBBD7CE1D15C966008F2B3D /* AppDelegate.swift */; };
 		BBBBD7D11D15C966008F2B3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBBD7D01D15C966008F2B3D /* ViewController.swift */; };
 		BBBBD7D41D15C966008F2B3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBBBD7D21D15C966008F2B3D /* Main.storyboard */; };
@@ -81,6 +86,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		094A51AE2427D8BF06AA213E /* Pods_dantimelinson_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dantimelinson_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC3F0F006698BD28EC792E3 /* Pods-dantimelinson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dantimelinson.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dantimelinson/Pods-dantimelinson.debug.xcconfig"; sourceTree = "<group>"; };
+		1ECFDC88E12DA1CDDF85C297 /* Pods-dantimelinson WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dantimelinson WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dantimelinson WatchKit Extension/Pods-dantimelinson WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		1F606A8FFFA162E8FF6C7C2D /* Pods_dantimelinsonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dantimelinsonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C9C7817F3496737313A12E8 /* Pods-dantimelinson WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dantimelinson WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-dantimelinson WatchKit App/Pods-dantimelinson WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		3A4ACE4CAF9D4D566FEB8838 /* Pods-dantimelinson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dantimelinson.release.xcconfig"; path = "Pods/Target Support Files/Pods-dantimelinson/Pods-dantimelinson.release.xcconfig"; sourceTree = "<group>"; };
+		461F7EDAAB24470ECCA64D09 /* Pods-dantimelinsonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dantimelinsonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dantimelinsonUITests/Pods-dantimelinsonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CE094EA9422AEE202E359F7 /* Pods_dantimelinson_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dantimelinson_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59D6C6D86868BC7E5EE6AEEA /* Pods_dantimelinson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dantimelinson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2641AA9B87272986302822 /* Pods-dantimelinson WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dantimelinson WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dantimelinson WatchKit App/Pods-dantimelinson WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		7B5DD6D8A98239F1C5E9CAF6 /* Pods-dantimelinsonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dantimelinsonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dantimelinsonTests/Pods-dantimelinsonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		86CFBFBD6588B9E036D0F845 /* Pods-dantimelinsonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dantimelinsonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dantimelinsonTests/Pods-dantimelinsonTests.release.xcconfig"; sourceTree = "<group>"; };
+		B4EAFF17B3ECF5EEECA34A9C /* Pods_dantimelinsonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dantimelinsonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6066985C97102D60AE06C32 /* Pods-dantimelinson WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dantimelinson WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-dantimelinson WatchKit Extension/Pods-dantimelinson WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 		BBBBD7CB1D15C966008F2B3D /* dantimelinson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dantimelinson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBBBD7CE1D15C966008F2B3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBBBD7D01D15C966008F2B3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +123,7 @@
 		BBBBD80B1D15C966008F2B3D /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		BBBBD80D1D15C966008F2B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBBBD80F1D15C966008F2B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C4CE77DFA1EF0A699AC3F0 /* Pods-dantimelinsonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dantimelinsonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dantimelinsonUITests/Pods-dantimelinsonUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03FD6FC259FEFE5CC8AC47F2 /* Pods_dantimelinson.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6339D95FFCFF8AB67781EA6 /* Pods_dantimelinsonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38563D949E23AA44CB29B92B /* Pods_dantimelinsonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,12 +155,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				882C773083CE84B4F5325BB4 /* Pods_dantimelinson_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A34129B9A271653E970538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71910E9215883CB93ECB65D5 /* Pods_dantimelinson_WatchKit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F95B1166379BD0261892139 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59D6C6D86868BC7E5EE6AEEA /* Pods_dantimelinson.framework */,
+				094A51AE2427D8BF06AA213E /* Pods_dantimelinson_WatchKit_App.framework */,
+				4CE094EA9422AEE202E359F7 /* Pods_dantimelinson_WatchKit_Extension.framework */,
+				B4EAFF17B3ECF5EEECA34A9C /* Pods_dantimelinsonTests.framework */,
+				1F606A8FFFA162E8FF6C7C2D /* Pods_dantimelinsonUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		824810F0204BF13B4143E89D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AC3F0F006698BD28EC792E3 /* Pods-dantimelinson.debug.xcconfig */,
+				3A4ACE4CAF9D4D566FEB8838 /* Pods-dantimelinson.release.xcconfig */,
+				5D2641AA9B87272986302822 /* Pods-dantimelinson WatchKit App.debug.xcconfig */,
+				2C9C7817F3496737313A12E8 /* Pods-dantimelinson WatchKit App.release.xcconfig */,
+				1ECFDC88E12DA1CDDF85C297 /* Pods-dantimelinson WatchKit Extension.debug.xcconfig */,
+				B6066985C97102D60AE06C32 /* Pods-dantimelinson WatchKit Extension.release.xcconfig */,
+				7B5DD6D8A98239F1C5E9CAF6 /* Pods-dantimelinsonTests.debug.xcconfig */,
+				86CFBFBD6588B9E036D0F845 /* Pods-dantimelinsonTests.release.xcconfig */,
+				461F7EDAAB24470ECCA64D09 /* Pods-dantimelinsonUITests.debug.xcconfig */,
+				D9C4CE77DFA1EF0A699AC3F0 /* Pods-dantimelinsonUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BBBBD7C21D15C966008F2B3D = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +208,8 @@
 				BBBBD7F71D15C966008F2B3D /* dantimelinson WatchKit App */,
 				BBBBD8061D15C966008F2B3D /* dantimelinson WatchKit Extension */,
 				BBBBD7CC1D15C966008F2B3D /* Products */,
+				824810F0204BF13B4143E89D /* Pods */,
+				3F95B1166379BD0261892139 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -222,10 +285,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBBBD81A1D15C966008F2B3D /* Build configuration list for PBXNativeTarget "dantimelinson" */;
 			buildPhases = (
+				189D2993BDBDA43C439D037F /* [CP] Check Pods Manifest.lock */,
 				BBBBD7C71D15C966008F2B3D /* Sources */,
 				BBBBD7C81D15C966008F2B3D /* Frameworks */,
 				BBBBD7C91D15C966008F2B3D /* Resources */,
 				BBBBD8191D15C966008F2B3D /* Embed Watch Content */,
+				934F48B562452A2C3242C50D /* [CP] Embed Pods Frameworks */,
+				95C828C86215F7B0420DA007 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,9 +307,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBBBD81D1D15C966008F2B3D /* Build configuration list for PBXNativeTarget "dantimelinsonTests" */;
 			buildPhases = (
+				0B71D30E6B7B6BB30DAFB3A0 /* [CP] Check Pods Manifest.lock */,
 				BBBBD7DB1D15C966008F2B3D /* Sources */,
 				BBBBD7DC1D15C966008F2B3D /* Frameworks */,
 				BBBBD7DD1D15C966008F2B3D /* Resources */,
+				2DE7574EDE1B63A1FD125D2D /* [CP] Embed Pods Frameworks */,
+				A2F5E2D170D006530BC85454 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,9 +328,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBBBD8201D15C966008F2B3D /* Build configuration list for PBXNativeTarget "dantimelinsonUITests" */;
 			buildPhases = (
+				A86FEE074B50F52903512D63 /* [CP] Check Pods Manifest.lock */,
 				BBBBD7E61D15C966008F2B3D /* Sources */,
 				BBBBD7E71D15C966008F2B3D /* Frameworks */,
 				BBBBD7E81D15C966008F2B3D /* Resources */,
+				DE0D0B886C51D20BB3815740 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -277,8 +348,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBBBD8161D15C966008F2B3D /* Build configuration list for PBXNativeTarget "dantimelinson WatchKit App" */;
 			buildPhases = (
+				69FA2AD27B2F66B28EBEFED7 /* [CP] Check Pods Manifest.lock */,
 				BBBBD7F11D15C966008F2B3D /* Resources */,
 				BBBBD8151D15C966008F2B3D /* Embed App Extensions */,
+				E5A34129B9A271653E970538 /* Frameworks */,
+				B75FECD8D79D31AC5D5A6C17 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -294,9 +368,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBBBD8121D15C966008F2B3D /* Build configuration list for PBXNativeTarget "dantimelinson WatchKit Extension" */;
 			buildPhases = (
+				CFA891E6430A663729A07EA0 /* [CP] Check Pods Manifest.lock */,
 				BBBBD7FE1D15C966008F2B3D /* Sources */,
 				BBBBD7FF1D15C966008F2B3D /* Frameworks */,
 				BBBBD8001D15C966008F2B3D /* Resources */,
+				F5543837ADB2F10622A67332 /* [CP] Embed Pods Frameworks */,
+				56F4BDC0BF31F3D9B1D5BDCE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -416,6 +493,204 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B71D30E6B7B6BB30DAFB3A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		189D2993BDBDA43C439D037F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2DE7574EDE1B63A1FD125D2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dantimelinsonTests/Pods-dantimelinsonTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56F4BDC0BF31F3D9B1D5BDCE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dantimelinson WatchKit Extension/Pods-dantimelinson WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69FA2AD27B2F66B28EBEFED7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		934F48B562452A2C3242C50D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dantimelinson/Pods-dantimelinson-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95C828C86215F7B0420DA007 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dantimelinson/Pods-dantimelinson-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2F5E2D170D006530BC85454 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dantimelinsonTests/Pods-dantimelinsonTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A86FEE074B50F52903512D63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B75FECD8D79D31AC5D5A6C17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dantimelinson WatchKit App/Pods-dantimelinson WatchKit App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFA891E6430A663729A07EA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE0D0B886C51D20BB3815740 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dantimelinsonUITests/Pods-dantimelinsonUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5543837ADB2F10622A67332 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dantimelinson WatchKit Extension/Pods-dantimelinson WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BBBBD7C71D15C966008F2B3D /* Sources */ = {
@@ -597,6 +872,7 @@
 		};
 		BBBBD8131D15C966008F2B3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ECFDC88E12DA1CDDF85C297 /* Pods-dantimelinson WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				INFOPLIST_FILE = "dantimelinson WatchKit Extension/Info.plist";
@@ -613,6 +889,7 @@
 		};
 		BBBBD8141D15C966008F2B3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6066985C97102D60AE06C32 /* Pods-dantimelinson WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				INFOPLIST_FILE = "dantimelinson WatchKit Extension/Info.plist";
@@ -629,6 +906,7 @@
 		};
 		BBBBD8171D15C966008F2B3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D2641AA9B87272986302822 /* Pods-dantimelinson WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -646,6 +924,7 @@
 		};
 		BBBBD8181D15C966008F2B3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C9C7817F3496737313A12E8 /* Pods-dantimelinson WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -663,6 +942,7 @@
 		};
 		BBBBD81B1D15C966008F2B3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AC3F0F006698BD28EC792E3 /* Pods-dantimelinson.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = dantimelinson/Info.plist;
@@ -675,6 +955,7 @@
 		};
 		BBBBD81C1D15C966008F2B3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A4ACE4CAF9D4D566FEB8838 /* Pods-dantimelinson.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = dantimelinson/Info.plist;
@@ -687,6 +968,7 @@
 		};
 		BBBBD81E1D15C966008F2B3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B5DD6D8A98239F1C5E9CAF6 /* Pods-dantimelinsonTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = dantimelinsonTests/Info.plist;
@@ -700,6 +982,7 @@
 		};
 		BBBBD81F1D15C966008F2B3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86CFBFBD6588B9E036D0F845 /* Pods-dantimelinsonTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = dantimelinsonTests/Info.plist;
@@ -713,6 +996,7 @@
 		};
 		BBBBD8211D15C966008F2B3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 461F7EDAAB24470ECCA64D09 /* Pods-dantimelinsonUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = dantimelinsonUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -725,6 +1009,7 @@
 		};
 		BBBBD8221D15C966008F2B3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C4CE77DFA1EF0A699AC3F0 /* Pods-dantimelinsonUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = dantimelinsonUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -754,6 +1039,7 @@
 				BBBBD8141D15C966008F2B3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBBBD8161D15C966008F2B3D /* Build configuration list for PBXNativeTarget "dantimelinson WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -762,6 +1048,7 @@
 				BBBBD8181D15C966008F2B3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBBBD81A1D15C966008F2B3D /* Build configuration list for PBXNativeTarget "dantimelinson" */ = {
 			isa = XCConfigurationList;
@@ -770,6 +1057,7 @@
 				BBBBD81C1D15C966008F2B3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBBBD81D1D15C966008F2B3D /* Build configuration list for PBXNativeTarget "dantimelinsonTests" */ = {
 			isa = XCConfigurationList;
@@ -778,6 +1066,7 @@
 				BBBBD81F1D15C966008F2B3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBBBD8201D15C966008F2B3D /* Build configuration list for PBXNativeTarget "dantimelinsonUITests" */ = {
 			isa = XCConfigurationList;
@@ -786,6 +1075,7 @@
 				BBBBD8221D15C966008F2B3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
