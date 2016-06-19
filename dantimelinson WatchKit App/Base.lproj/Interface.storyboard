@@ -10,7 +10,12 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="dantimelinson_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <group width="1" height="150" alignment="left" layout="vertical" id="8An-hL-gay">
+                        <group width="1" alignment="left" id="6gI-cZ-U5N">
+                            <items>
+                                <imageView alignment="center" image="spinner" animationDuration="2.4100000000000001" id="l4a-5Q-Xm1"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" layout="vertical" id="8An-hL-gay">
                             <items>
                                 <dateLabel width="136" alignment="left" textAlignment="center" id="azb-u3-2QM">
                                     <fontDescription key="font" type="system" pointSize="35"/>
@@ -30,11 +35,14 @@
                     <connections>
                         <outlet property="currentDate" destination="5zv-5d-dwh" id="EQx-7E-qui"/>
                         <outlet property="currentTime" destination="azb-u3-2QM" id="irw-1f-16Y"/>
+                        <outlet property="loadingGroup" destination="6gI-cZ-U5N" id="jul-G8-Vz4"/>
+                        <outlet property="loadingSpinner" destination="l4a-5Q-Xm1" id="Nk9-tK-qGc"/>
+                        <outlet property="timeGroup" destination="8An-hL-gay" id="SXJ-EL-FcE"/>
                         <outlet property="timezone" destination="LpK-13-P1C" id="A5g-nP-LR9"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="34" y="37"/>
+            <point key="canvasLocation" x="34" y="110"/>
         </scene>
     </scenes>
 </document>

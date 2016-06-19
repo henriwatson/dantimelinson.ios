@@ -11,6 +11,10 @@ import Foundation
 import Alamofire
 
 class InterfaceController: WKInterfaceController {
+    @IBOutlet var loadingGroup: WKInterfaceGroup!
+    @IBOutlet var loadingSpinner: WKInterfaceImage!
+    
+    @IBOutlet var timeGroup: WKInterfaceGroup!
     @IBOutlet var currentTime: WKInterfaceDate!
     @IBOutlet var currentDate: WKInterfaceDate!
     @IBOutlet var timezone: WKInterfaceLabel!
@@ -20,6 +24,7 @@ class InterfaceController: WKInterfaceController {
         super.awake(withContext: context)
         
         // Configure interface objects here.
+        timeGroup.setHidden(true)
     }
     
     override func willActivate() {
@@ -33,14 +38,12 @@ class InterfaceController: WKInterfaceController {
                 let timezone = TimeZone(forSecondsFromGMT: response.result.value!["offset_seconds"] as! Int)
                 
                 self.currentTime.setTimeZone(timezone)
-                
                 self.currentDate.setTimeZone(timezone)
                 
+                self.loadingGroup.setHidden(true)
+                self.timeGroup.setHidden(false)
+                
         }
-        
-        
-        
-        
     }
     
     override func didDeactivate() {
