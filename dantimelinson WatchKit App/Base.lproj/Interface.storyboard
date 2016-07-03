@@ -29,6 +29,9 @@
                                 <label width="136" alignment="left" text="America/Los_Angeles" textAlignment="center" id="LpK-13-P1C">
                                     <fontDescription key="font" type="system" pointSize="13"/>
                                 </label>
+                                <label width="136" alignment="left" text="UTC-8" textAlignment="center" id="lq4-YE-cdk">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
                             </items>
                         </group>
                     </items>
@@ -38,7 +41,8 @@
                         <outlet property="loadingGroup" destination="6gI-cZ-U5N" id="jul-G8-Vz4"/>
                         <outlet property="loadingSpinner" destination="l4a-5Q-Xm1" id="Nk9-tK-qGc"/>
                         <outlet property="timeGroup" destination="8An-hL-gay" id="SXJ-EL-FcE"/>
-                        <outlet property="timezone" destination="LpK-13-P1C" id="A5g-nP-LR9"/>
+                        <outlet property="timezoneName" destination="LpK-13-P1C" id="xCg-uo-9bC"/>
+                        <outlet property="timezoneOffset" destination="lq4-YE-cdk" id="SYK-gs-vSf"/>
                     </connections>
                 </controller>
             </objects>

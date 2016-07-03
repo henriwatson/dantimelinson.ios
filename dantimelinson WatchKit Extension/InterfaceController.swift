@@ -17,7 +17,8 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet var timeGroup: WKInterfaceGroup!
     @IBOutlet var currentTime: WKInterfaceDate!
     @IBOutlet var currentDate: WKInterfaceDate!
-    @IBOutlet var timezone: WKInterfaceLabel!
+    @IBOutlet var timezoneName: WKInterfaceLabel!
+    @IBOutlet var timezoneOffset: WKInterfaceLabel!
 
 
     override func awake(withContext context: AnyObject?) {
@@ -33,7 +34,8 @@ class InterfaceController: WKInterfaceController {
         
         Alamofire.request(.GET, "http://dantimelinson.xyz/?json")
             .responseJSON { response in
-                self.timezone.setText(response.result.value!["timeZoneId"] as? String)
+                self.timezoneName.setText(response.result.value!["timeZoneId"] as? String)
+                self.timezoneOffset.setText("GMT" + (response.result.value!["offset"] as! String))
                 
                 let timezone = TimeZone(forSecondsFromGMT: response.result.value!["offset_seconds"] as! Int)
                 
